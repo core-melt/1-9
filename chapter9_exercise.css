@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main{
+	margin: 50px 0;
+	width: 960px;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.box{
+	border: 1px solid #000;
+	width: 300px;
+	float: left;
+}
+
+.box:nth-child(-n+2){
+	margin-right: 30px;
+}
+
+img{
+	width: 280px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+h1{
+	padding: 10px 0;
+	font-size: 22px;
+}
+
+h1, p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*.box:nth-child(1){
+	background-image: url("chapter9_exercise_img/flow01.png");
+	background-size: 280px;
+}
+
+.box:nth-child(2){
+	background-image: url("chapter9_exercise_img/flow02.png");
+}
+
+.box:nth-child(3){
+	background-image: url("chapter9_exercise_img/flow03.png");
+}*/
+
+.stepbox{
+	color: #fff;
+	background-color: #ffa500;
+	display: inline-block;
+}
